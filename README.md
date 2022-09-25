@@ -17,6 +17,7 @@ The experiments carried on the dataset could be applicable to similar business s
 **Disclaimer:**
 1. This project is result of original work
 2. The references and credits are properly cited in reference section
+3. The project is plagiarism free. None of the code portion is either copied, exhibited, or resembled from other similar project present on internet.
 
 **References & Credits:**
 

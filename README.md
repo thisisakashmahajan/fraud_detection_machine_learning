@@ -19,6 +19,9 @@ The experiments carried on the dataset could be applicable to similar business s
 2. The references and credits are properly cited in reference section
 3. The project is plagiarism free. None of the code portion is either copied, exhibited, or resembled from other similar project present on internet.
 
+** This project is basically a pilot project to implementation of fraud detection system 
+using machine learning
+
 **References & Credits:**
 
 Thank you, [Rupak Roy](https://www.kaggle.com/rupakroy) for sharing the Online Payments Fraud Detection dataset on Kaggle.

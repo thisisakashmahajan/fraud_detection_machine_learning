@@ -19,8 +19,8 @@ data = df.copy()
 
 X, Y = transform_data(data)
 X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.2)
-
-model = models.get('xgboost')
+print(len(X_test))
+model = models.get('svm')
 model.fit(X_train, y_train)
 
 predictions = model.predict(X_test)

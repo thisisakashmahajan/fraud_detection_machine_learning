@@ -35,8 +35,11 @@ def print_metrics(original, predictions):
     print(classification_report(original, predictions))
 
 
-def show_confusion_matrix(original, predictions):
+def show_confusion_matrix(original, predictions, save=False, title='Confusion Matrix'):
     matrix = confusion_matrix(original, predictions)
     plt.figure(figsize=(8, 8)).set_dpi(256)
+    plt.title(title)
     sns.heatmap(matrix, annot=True, fmt='')
+    if save:
+        plt.savefig('confusion_matrix.png', dpi=256)
     plt.show()
